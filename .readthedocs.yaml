@@ -9,5 +9,6 @@ sphinx:
   fail_on_warning: true
 
 python:
-  - install: pip
-    path: .
+  install:
+    - method: pip
+      path: .
